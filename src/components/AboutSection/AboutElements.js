@@ -11,7 +11,7 @@ export const AboutContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #0a192f;
 `;
 

@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
 import ProjectsSection from "../components/ProjectsSection";
+import ContactSection from "../components/ContactSection";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -17,6 +18,7 @@ const Home = () => {
       <HeroSection />
       <AboutSection />
       <ProjectsSection />
+      <ContactSection />
     </>
   );
 };

@@ -17,6 +17,7 @@ export const ProjectContainer = styled.div`
   width: 21rem;
   height: 23rem;
   padding: 1rem;
+  margin-top: 1rem;
 `;
 
 export const TopProjectIcons = styled.div`
@@ -41,6 +42,7 @@ export const ProjectText = styled.div`
 `;
 
 export const ProjectHeader = styled.h2`
+  color: #64ffda;
   font-weight: bold;
   font-size: 2rem;
 `;
@@ -48,6 +50,8 @@ export const ProjectHeader = styled.h2`
 export const ProjectBody = styled.p``;
 export const BottomProjectIcons = styled.div`
   font-size: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
 `;
 export const HtmlLogo = styled(AiFillHtml5)`
   color: #f16529;
