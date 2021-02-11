@@ -86,8 +86,13 @@ export const NavLinks = styled(LinkS)`
   height: 100%;
   cursor: pointer;
 
+  &:hover {
+    color: #64ffda;
+  }
   &:active {
-    border-bottom: 3px solid #01bf71;
+    color: #ccd6f6;
+    border-bottom:2px solid #64ffda;
+  }
   }
 `;
 
