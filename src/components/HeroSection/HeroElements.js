@@ -36,7 +36,7 @@ export const TypeWriterH1 = styled.h1`
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 `;
 
@@ -49,4 +49,8 @@ export const ProfileImage = styled.img`
   align-items: center;
   justify-content: center;
   border: 0.25rem solid #ccd6f6;
+
+  @media screen and (max-width: 480px) {
+    width: 17rem;
+  }
 `;

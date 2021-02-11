@@ -18,6 +18,10 @@ export const ProjectContainer = styled.div`
   height: 23rem;
   padding: 1rem;
   margin-top: 1rem;
+
+  @media screen and (max-width: 480px) {
+    width: 17rem;
+  }
 `;
 
 export const TopProjectIcons = styled.div`
@@ -45,6 +49,10 @@ export const ProjectHeader = styled.h2`
   color: #64ffda;
   font-weight: bold;
   font-size: 2rem;
+
+  @media screen and (max-width: 480px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const ProjectBody = styled.p``;

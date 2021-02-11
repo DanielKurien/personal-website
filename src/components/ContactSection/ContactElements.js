@@ -5,11 +5,16 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 export const ContactContainer = styled.div`
   padding: 8rem 7rem 6rem 7rem;
   color: #ccd6f6;
+  height: 0;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
   background-color: #0a192f;
   margin-top: 10rem;
+
+  @media screen and (max-width: 710px) {
+    margin-top: 20rem;
+  }
 `;
 
 export const IconDiv = styled.div`
