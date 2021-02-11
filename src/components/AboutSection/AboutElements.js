@@ -5,7 +5,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 
 export const AboutContainer = styled.div`
-  padding: 9rem 9rem 9rem 9rem;
+  padding: 9rem;
 
   color: #ccd6f6;
   display: flex;

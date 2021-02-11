@@ -1,9 +1,12 @@
 import React from "react";
-import { ContactContainer } from "./ContactElements";
+import { ContactContainer, ContactImage } from "./ContactElements";
+import ContactForm from "../ContactForm";
+import contactImg from "../../images/contact.svg";
 const ContactSection = () => {
   return (
     <ContactContainer id="contact">
-      <h1>Hello</h1>
+      <ContactImage src={contactImg} />
+      <ContactForm />
     </ContactContainer>
   );
 };
