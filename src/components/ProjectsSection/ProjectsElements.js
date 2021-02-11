@@ -28,6 +28,10 @@ export const ProjectsHeading = styled.h1`
   @media screen and (max-width: 480px) {
     font-size: 1.8rem;
   }
+
+  @media screen and (max-width: 350px) {
+    font-size: 1.3rem;
+  }
 `;
 export const ProjectItems = styled.div`
   display: flex;

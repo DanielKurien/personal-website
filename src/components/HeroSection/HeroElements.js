@@ -35,8 +35,14 @@ export const TypeWriterH1 = styled.h1`
   color: #64ffda;
   text-align: center;
 
+  @media screen and (min-width: 1400px) {
+    font-size: 2.5rem;
+  }
   @media screen and (max-width: 480px) {
     font-size: 1.5rem;
+  }
+  @media screen and (max-width: 380px) {
+    font-size: 1rem;
   }
 `;
 
@@ -52,5 +58,9 @@ export const ProfileImage = styled.img`
 
   @media screen and (max-width: 480px) {
     width: 17rem;
+  }
+
+  @media screen and (max-width: 380px) {
+    width: 14rem;
   }
 `;

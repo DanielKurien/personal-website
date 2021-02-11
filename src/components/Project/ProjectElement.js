@@ -22,6 +22,11 @@ export const ProjectContainer = styled.div`
   @media screen and (max-width: 480px) {
     width: 17rem;
   }
+
+  @media screen and (max-width: 350px) {
+    width: 15rem;
+    height: 17rem;
+  }
 `;
 
 export const TopProjectIcons = styled.div`
@@ -31,11 +36,18 @@ export const TopProjectIcons = styled.div`
 
 export const ToolsIcon = styled(VscTools)`
   font-size: 2rem;
+
+  @media screen and (max-width: 350px) {
+    font-size: 1.6rem;
+  }
 `;
 
 export const GithubIcon = styled(AiFillGithub)`
   font-size: 1.7rem;
   color: #64ffda;
+  @media screen and (max-width: 350px) {
+    font-size: 1.2rem;
+  }
 `;
 
 export const ProjectText = styled.div`
@@ -43,6 +55,10 @@ export const ProjectText = styled.div`
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+
+  @media screen and (max-width: 350px) {
+    font-size: 0.8rem;
+  }
 `;
 
 export const ProjectHeader = styled.h2`
@@ -52,6 +68,9 @@ export const ProjectHeader = styled.h2`
 
   @media screen and (max-width: 480px) {
     font-size: 1.5rem;
+  }
+  @media screen and (max-width: 350px) {
+    font-size: 1.1rem;
   }
 `;
 

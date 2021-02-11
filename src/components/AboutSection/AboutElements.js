@@ -23,6 +23,11 @@ export const AboutContainer = styled.div`
     padding-left: 4rem;
     padding-right: 4rem;
   }
+
+  @media screen and (max-width: 440px) {
+    padding-right: 4.5rem;
+    padding-left: 4rem;
+  }
 `;
 
 export const AboutText = styled.div`
@@ -42,6 +47,13 @@ export const AboutHeading = styled.h1`
 
 export const AboutBody = styled.p`
   font-size: 1.2rem;
+
+  @media screen and (max-width: 440px) {
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 330px) {
+    font-size: 0.8rem;
+  }
 `;
 export const AboutImage = styled.img`
   display: flex;
@@ -55,7 +67,7 @@ export const AboutImage = styled.img`
   @media screen and (max-width: 486px) {
     width: 17rem;
   }
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 370px) {
     width: 12rem;
   }
 `;
@@ -68,21 +80,30 @@ export const AboutTechnologies = styled.div`
     flex-direction: column;
     align-items: flex-start;
   }
-  @media screen and (max-width: 350px) {
-    font-size: 0.8rem;
-  }
 `;
 
 export const TechnologyText = styled.p`
   font-size: 1.2rem;
+
+  @media screen and (max-width: 440px) {
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 330px) {
+    font-size: 0.8rem;
+  }
 `;
 
 export const TechnologyLogos = styled.div`
   margin-top: 0.5rem;
   color: #64ffda;
   font-size: 2rem;
+
+  @media screen and (max-width: 440px) {
+    font-size: 1.5rem;
+  }
+
   @media screen and (max-width: 350px) {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 `;
 
