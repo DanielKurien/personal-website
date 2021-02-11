@@ -10,20 +10,33 @@ import {
 } from "./ContactFormElements";
 const ContactForm = () => {
   return (
-    <form name="contact" action="/contact" method="POST">
-      <input type="hidden" name="form-name" value="contact" />
-      <input required name="name" type="text" placeholder="name" />
-      <input required name="email" type="text" placeholder="email" />
-      <textarea
-        required
+    <Form action="post" data-netlify="true">
+      <FormHeading>Contact Me</FormHeading>
+      <TextDiv>
+        <NameInput
+          placeholder="Type Full Name"
+          type="text"
+          name="name"
+          id="name"
+          required="true"
+        />
+        <EmailInput
+          placeholder="Type Email"
+          type="email"
+          name="email"
+          id="email"
+          required="true"
+        />
+      </TextDiv>
+      <TextInput
+        id="message"
         name="message"
-        cols="10"
-        rows="10"
-        type="text"
-        placeholder="Message Here"
-      />
-      <button type="submit">Submit</button>
-    </form>
+        required="true"
+        rows="6"
+        cols="40"
+      ></TextInput>
+      <Button type="submit">Submit</Button>
+    </Form>
   );
 };
 
