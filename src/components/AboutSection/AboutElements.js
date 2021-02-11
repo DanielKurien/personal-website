@@ -13,6 +13,11 @@ export const AboutContainer = styled.div`
   align-items: center;
   min-height: 100vh;
   background-color: #0a192f;
+
+  @media screen and (max-width: 1030px) {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 `;
 
 export const AboutText = styled.div`
@@ -24,6 +29,10 @@ export const AboutText = styled.div`
 export const AboutHeading = styled.h1`
   color: #64ffda;
   margin-bottom: 0.7rem;
+
+  @media screen and (max-width: 800px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const AboutBody = styled.p`
@@ -33,11 +42,20 @@ export const AboutImage = styled.img`
   display: flex;
   justify-content: center;
   width: 30rem;
+
+  @media screen and (max-width: 1150px) {
+    width: 25rem;
+  }
 `;
 
 export const AboutTechnologies = styled.div`
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 838px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `;
 
 export const TechnologyText = styled.p`
