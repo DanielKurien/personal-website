@@ -5,7 +5,4 @@ My personal website where I keep all my programming projects and where can you c
 ### Link to Website Here
 [Portfolio Website](https://danielkurien.netlify.app/)
 
-# Getting Started with Create React App
-
-This project was bootstrapped with 
 
