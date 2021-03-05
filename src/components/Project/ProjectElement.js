@@ -5,6 +5,8 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
+import { SiArduino } from "react-icons/si";
 
 export const ProjectContainer = styled.div`
   border-radius: 3%;
@@ -44,12 +46,20 @@ export const ToolsIcon = styled(VscTools)`
 
 export const GithubIcon = styled(AiFillGithub)`
   font-size: 1.7rem;
+  margin-left: 0.5rem;
   color: #64ffda;
   @media screen and (max-width: 350px) {
     font-size: 1.2rem;
   }
 `;
 
+export const HackathonIcon = styled(FiExternalLink)`
+  font-size: 1.7rem;
+  color: #64ffda;
+  @media screen and (max-width: 350px) {
+    font-size: 1.2rem;
+  }
+`;
 export const ProjectText = styled.div`
   display: flex;
   flex-direction: column;
@@ -98,4 +108,8 @@ export const ReactLogo = styled(FaReact)`
 
 export const NodeLogo = styled(FaNodeJs)`
   color: #68a063;
+`;
+
+export const ArduinoLogo = styled(SiArduino)`
+  color: #00979c;
 `;

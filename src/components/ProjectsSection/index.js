@@ -17,28 +17,32 @@ const ProjectsSection = () => {
           js={true}
           react={true}
           projectName="Portfolio Website"
-          projectText="My personal website where I keep all my programming projects and where can you can get to know me better.
-          The site you're looking at right now :)"
+          projectText="My personal website where I keep my programming projects and can find information to get in touch with me. This is the site you are on right now."
         />
         <Project
-          projectLink={"sample"}
+          projectLink={"https://github.com/DanielKurien/pchack2019"}
+          hackathonLink={"https://devpost.com/software/vision-belt"}
+          hackathon={true}
           html={true}
           css={true}
           js={true}
+          arduino={true}
           react={true}
-          node={true}
-          projectName="Sample"
-          projectText="sample project"
+          projectName="The Smart Belt"
+          projectText="The Smart Belt helps a person who is visually impaired, become aware of any possible safety hazards around them. 
+          Project won 'Best Smart City Hack' at the PcHacks 2019 Hackathon."
         />
         <Project
-          projectLink={"sample"}
+          projectLink={"https://github.com/DanielKurien/HackTheNorth2019"}
+          hackathonLink={"https://devpost.com/software/autosave"}
+          hackathon={true}
           html={true}
           css={true}
           js={true}
-          react={true}
           node={true}
-          projectName="Sample"
-          projectText="sample project"
+          devpost={true}
+          projectName="AutoSave"
+          projectText="AutoSave helps the user save money automatically, by putting money in their savings account when they purchase something. Project was created at the Hack the North 2019 Hackathon."
         />
       </ProjectItems>
     </ProjectsContainer>
